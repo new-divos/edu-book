@@ -1,0 +1,6 @@
+[book]
+authors = ["Roman Voronkin"]
+language = "ru"
+multilingual = false
+src = "src"
+title = "Электронный учебник"
