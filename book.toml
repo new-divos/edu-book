@@ -4,3 +4,6 @@ language = "ru"
 multilingual = false
 src = "src"
 title = "Электронный учебник"
+
+[output.html]
+mathjax-support = true
