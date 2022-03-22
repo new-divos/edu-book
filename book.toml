@@ -5,5 +5,18 @@ multilingual = false
 src = "src"
 title = "Электронный учебник"
 
+[preprocessor]
+
+[preprocessor.admonish]
+command = "mdbook-admonish"
+
+[output]
+
 [output.html]
+theme = "rust"
+default-theme = "light"
+preferred-dark-theme = "navy"
+curly-quotes = true
 mathjax-support = true
+copy-fonts = true
+additional-css = ['.\.\mdbook-admonish.css']
