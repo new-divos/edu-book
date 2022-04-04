@@ -13,10 +13,11 @@ command = "mdbook-admonish"
 [output]
 
 [output.html]
-theme = "rust"
 default-theme = "light"
 preferred-dark-theme = "navy"
 curly-quotes = true
 mathjax-support = true
 copy-fonts = true
-additional-css = ['.\.\mdbook-admonish.css']
+git-repository-url = "https://github.com/new-divos/edu-book"
+git-repository-icon = "fa-github"
+additional-css = ['.\.\mdbook-admonish.css', 'css\custom.css']

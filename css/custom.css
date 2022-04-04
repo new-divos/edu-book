@@ -1,0 +1,14 @@
+.figure-label {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-justify: inherit;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.figure {
+    display: block;
+    justify-content: center;
+    text-align: center;
+}

@@ -10,3 +10,4 @@
   - [Основы ветвления Git](./labs/git/lab_1_3_1.md)
 - [Программирование на выскороуровневом языке Python](./labs/git/index.md)
   - [Основы языка Python](./labs/python/lab_2_1_1.md)
+  - [Условные операторы и циклы в языке Python](./labs/python/lab_2_2_1.md)
