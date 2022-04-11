@@ -11,6 +11,27 @@
 				"kind": "build",
 				"isDefault": true
 			}
+        },
+        {
+            "label": "git-checkout",
+            "type": "shell",
+            "command": "git checkout develop"
+        },
+        {
+            "label": "git-pull",
+            "type": "shell",
+            "command": "git pull --rebase"
+        },
+        {
+            "label": "init",
+            "dependsOrder": "sequence",
+            "runOptions": {
+                "runOn": "folderOpen"
+            },
+            "dependsOn": [
+                "git-checkout",
+                "git-pull"
+            ]
         }
     ]
 }
